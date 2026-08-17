@@ -53,13 +53,16 @@ To use your generated Mii inside Dolphin, copy `RFL_DB.dat` to your Wii environm
 
 ```text
 path-to-wii-env/
-    └── User/
-        └── Wii/
-            └── shared2/
-                └── menu/
-                    └── FaceLib/
-                        └── RFL_DB.dat
+├── User/
+│   └── Wii/
+│       └── shared2/
+│           └── menu/
+│               └── FaceLib/
+│                   └── RFL_DB.dat
+└── ...
 ```
+
+└──
 
 *Note: Create the `menu/FaceLib/` directories manually if they do not exist yet.*
 
