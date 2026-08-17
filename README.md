@@ -49,18 +49,16 @@ node convert.js my_mii.charinfo ./RFL_DB.dat
 
 ### File Placement
 
-To use your generated Mii inside Dolphin or Switch Atmosphere (virtual Wii NAND), copy `RFL_DB.dat` to your SD card:
+To use your generated Mii inside Dolphin, copy `RFL_DB.dat` to your Wii environment:
 
 ```text
-sd:/
-└── switch/
-    └── dolphin-emu/
-        └── User/
-            └── Wii/
-                └── shared2/
-                    └── menu/
-                        └── FaceLib/
-                            └── RFL_DB.dat
+path-to-wii-env/
+    └── User/
+        └── Wii/
+            └── shared2/
+                └── menu/
+                    └── FaceLib/
+                        └── RFL_DB.dat
 ```
 
 *Note: Create the `menu/FaceLib/` directories manually if they do not exist yet.*
